@@ -1,0 +1,234 @@
+.logo{
+  object-fit: contain;
+}
+.header{
+  position: relative;
+  display: flex;
+  align-items: center;
+  width: 1510px;
+  flex-direction: row;
+}
+.menu-container {
+  font-family: 'Dancing Script', cursive;
+  font-weight: 600;
+  color: #ff009e;
+  font-size: 20px;
+  position: absolute;
+  display: flex;
+  padding-left: 100px;
+  padding-right: 100px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  right: -18px;
+
+}
+a{
+  text-decoration: none;
+  color: #ff009e;
+}
+.discover-section{
+  position: relative;
+}
+.home-picture{
+  margin-top: 20px;
+  width: 1513px;
+  height: 600px;
+  object-fit:fill;
+}
+.button-section{
+  position: absolute;
+  top: 12px;
+  right: 40px;
+}
+.discover-button{
+  border: none;
+  background-color: #cbb2ff;
+  color: white;
+  font-family: Dancing Script, cursive;
+  font-weight: bold;
+  font-size: 15px;
+  cursor: pointer;
+}
+
+.about-section{
+  margin-top: 50px;
+  display: flex;
+}
+.dana, .raz{
+  display: grid;
+  width: 200px;
+  margin-left: 150px;
+  margin-right: 300px;
+}
+p{
+  font-family: Dancing Script, cursive;
+  font-weight: 400;
+  font-size: 15px;
+}
+.dana-picture, .raz-picture{
+  height: 400px;
+  width: 390px;
+  object-fit: fill;
+  border-width: 5px;
+  border-color: #ff009e;
+  border-style: solid;
+  border-radius: 200px;
+}
+.titlu{
+  color: #ff009e;
+  font-family: Dancing Script, cursive;
+  font-weight: 700;
+  font-size: 15px;
+}
+
+
+.projects-title{
+  font-family: Dancing Script, cursive;
+  font-weight: 700;
+  font-size: 25px;
+  color: #cbb2ff;
+  margin-left: 50px;
+  align-items: center;
+  justify-content: center;
+}
+.projects-section{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  column-gap: 15px;
+}
+
+.project-column{
+  margin-left: 20px;
+  width: 404px;
+}
+
+.project-column-mancare {
+  width: 608px;
+}
+.project{
+  width: 200px;
+}
+
+.project-title{
+  color: #cbb2ff;
+  font-family: Dancing Script, cursive;
+  font-weight: 700;
+  font-size: 15px; 
+  margin-left: 150px;
+}
+.project1,.project2{
+  height: 156px;
+  width: 200px;
+}
+.project-title-master {
+  color: #cbb2ff;
+  font-family: Dancing Script, cursive;
+  font-weight: 700;
+  font-size: 15px;
+  margin-left: 60px;
+}
+
+.project-practica{
+  width: 400px;
+  margin-left: 45px;
+}
+.project-master{
+  width: 250px;
+}
+
+.pins-section{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  column-gap: 0;
+}
+.pins-column{
+  width: 390px;
+}
+
+.pin-picture{
+  margin-left: 15px;
+  border-style: solid;
+  border-width: 3px;
+  border-color: #ff009e;
+  object-fit: contain;
+}
+
+.pin-description{
+  color: #cbb2ff;
+  font-size: 18px ;
+  font-weight: 700;
+  margin-top: 2px;
+  margin-left: 200px;
+
+}
+.descriere{
+  position: relative;
+}
+
+.pins-column .tooltip{
+  font-family: Dancing Script, cursive;
+  position: absolute;
+  background-color:#cbb2ff;
+  color: white;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  padding-left: 8px;
+  padding-right: 8px;
+  border-radius: 2px;
+  font-size: 14px;
+  bottom: 120px;
+  left: 8px;
+  width: 496px;
+  display: inline-block;
+  opacity: 0;
+  transition: opacity 0.15s;
+  pointer-events: none;
+  white-space: nowrap;
+}
+
+.pins-column:hover .tooltip {
+  opacity: 1;
+  width: 496px;
+}
+
+.projects-section {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  column-gap: 15px;
+}
+
+.project-row{
+  display: flex;
+}
+.project-column {
+  margin-left: 20px;
+  width: 404px;
+}
+
+.project-column-mancare {
+  width: 608px;
+}
+
+.project {
+  width: 200px;
+}
+
+.download-button{
+  margin-left: 140px;
+  margin-top: 130px;
+  background-color: #cbb2ff;
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 15px;
+  font-family: Dancing Script, cursive;
+  font-size: 15px;
+  font-weight: 700px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
